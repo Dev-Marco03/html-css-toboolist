@@ -1,0 +1,17 @@
+:root{
+    --body: #F6F8F9;
+    --add_task: #14AAF5;
+    --ass_section: #C4CBD0;
+    --task_title: #434851;
+    --editorial: #14AAF5;
+    --goals: #ab5de6;
+    --recruiting: #2CC6AB;
+    --mobile: #FF9B00;
+    --website: #EC4A9D;
+    --sales: #A3D116;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--body);
+}
