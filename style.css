@@ -21,7 +21,24 @@ h3{
 }
 /*#endregion common*/
 
-/*#region utility*/
+/*#region body*/
+.btn {
+    padding: .25rem 1rem;
+    border-radius: 0.25rem;
+    border-style: none;
+    background-color: transparent;
+}
+.btn-primary {
+    background-color: var(--add_task);
+    border: 1px solid var(--add_task);
+    color: var(white);
+}
+.btn-outline {
+    border: 1px solid var(--add_section);
+    color: var(--add_section);
+}
+/*buttons*/
+
 .container{
     width: 70%;
     margin: auto;
@@ -35,27 +52,65 @@ h3{
 .card-header {
     padding-top: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 4px solid var(--tob-page-bg);
+    border-bottom: 4px solid var(--body);
 }
-/*buttons*/
-.btn {
-    padding: .25rem 1rem;
-    border-radius: 0.25rem;
-    border-style: none;
-    background-color: transparent;
+.card-body{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
-
-.btn-primary {
-    background-color: var(--add_task);
-    border: 1px solid var(--add_task);
+.card-header, .card-body{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.badge {
     color: var(white);
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+}
+ul.list-unstyled {
+    list-style: none;
+    line-height: 2.5rem;
+}
+.icon {
+    font-size: 0.8rem;
+    display: inline-block;
+    border: 1px solid var(--add_section);
+    width: 1.15rem;
+    height: 1.15rem;
+    text-align: center;
+    line-height: 1.15rem;
+    border-radius: 50%
+}
+.checkmark {
+    border-color: var(rgb(0, 255, 34));
+    color: var(rgb(0, 255, 34));
+}
+.cross {
+    border-color: var(red);
+    color: var(red);
 }
 
-.btn-outline {
-    border: 1px solid var(--add_section);
-    color: var(--add_section);
+/*colors*/
+.bg-editorial {
+    background-color: var(--editorial);
 }
-/*#endregion utility*/
+.bg-goals {
+    background-color: var(--goals);
+}
+.bg-recruiting {
+    background-color: var(--recruiting);
+}
+.bg-mobile {
+    background-color: var(--mobile);
+}
+.bg-website {
+    background-color: var(--website);
+}
+.bg-sales {
+    background-color: var(--sales);
+}
+/*#endregion body*/
 
 /*#region header*/
 
