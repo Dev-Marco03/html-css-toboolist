@@ -2,7 +2,7 @@
 :root{
     --body: #F6F8F9;
     --add_task: #14AAF5;
-    --ass_section: #C4CBD0;
+    --add_section: #C4CBD0;
     --task_title: #434851;
     --editorial: #14AAF5;
     --goals: #ab5de6;
@@ -16,6 +16,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--body);
 }
+h3{
+    margin-top: 2rem;
+}
 /*#endregion common*/
 
 /*#region utility*/
@@ -23,9 +26,29 @@ body{
         width: 70%;
         margin: auto;
     }
+
+/*buttons*/
+.btn {
+    padding: .25rem 1rem;
+    border-radius: 0.25rem;
+    border-style: none;
+    background-color: transparent;
+}
+
+.btn-primary {
+    background-color: var(--add_task);
+    border: 1px solid var(--add_task);
+    color: var(white);
+}
+
+.btn-outline {
+    border: 1px solid var(--add_section);
+    color: var(--add_section);
+}
 /*#endregion utility*/
 
 /*#region header*/
+
     #header{
         background-color: white;
         padding: 10px;
@@ -40,3 +63,9 @@ body{
         font-weight: bolder;
     }
 /*#endregion header*/
+
+/*#region main*/
+main{
+    padding: 3rem;
+}
+/*#endregion main*/
