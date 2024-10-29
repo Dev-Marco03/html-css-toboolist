@@ -22,11 +22,21 @@ h3{
 /*#endregion common*/
 
 /*#region utility*/
-    .container{
-        width: 70%;
-        margin: auto;
-    }
-
+.container{
+    width: 70%;
+    margin: auto;
+}
+.card{
+    background-color: white;
+    margin-top: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px var(--add_section);
+}
+.card-header {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 4px solid var(--tob-page-bg);
+}
 /*buttons*/
 .btn {
     padding: .25rem 1rem;
