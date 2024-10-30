@@ -16,8 +16,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--body);
 }
-h3{
+summary{
     margin-top: 2rem;
+    font-weight: bolder;
+    font-size: larger;
 }
 /*#endregion common*/
 
