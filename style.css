@@ -83,12 +83,12 @@ ul.list-unstyled {
     border-radius: 50%
 }
 .checkmark {
-    border-color: var(rgb(0, 255, 34));
-    color: var(rgb(0, 255, 34));
+    border-color: #77c9b5;
+    color: #77c9b5;
 }
 .cross {
-    border-color: var(red);
-    color: var(red);
+    border-color: #eb5a53;
+    color: #eb5a53;
 }
 
 /*colors*/
